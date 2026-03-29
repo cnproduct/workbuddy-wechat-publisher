@@ -1,0 +1,39 @@
+{
+  "name": "doubao-web-image",
+  "version": "1.0.0",
+  "description": "基于 Playwright 的豆包 (Doubao) Web 端网页自动化生图工具",
+  "main": "scripts/main.ts",
+  "bin": {
+    "doubao-image": "scripts/main.ts"
+  },
+  "scripts": {
+    "start": "ts-node scripts/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjf6568/doubao-web-image.git"
+  },
+  "keywords": [
+    "doubao",
+    "playwright",
+    "automation",
+    "image-generation"
+  ],
+  "author": "pjf6568",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
