@@ -1,0 +1,8 @@
+{
+    "wechat": {
+        "app_id": "your_app_id_here",
+        "app_secret": "your_app_secret_here",
+        "default_author": "作者名称",
+        "default_cover": ""
+    }
+}
